@@ -1,8 +1,0 @@
-﻿  main.cpp
-main.obj : error LNK2019: símbolo externo __imp_wglCreateContext sin resolver al que se hace referencia en la función "bool __cdecl CreateDeviceWGL(struct HWND__ *,struct WGL_WindowData *)" (?CreateDeviceWGL@@YA_NPEAUHWND__@@PEAUWGL_WindowData@@@Z)
-main.obj : error LNK2019: símbolo externo __imp_wglDeleteContext sin resolver al que se hace referencia en la función main
-main.obj : error LNK2019: símbolo externo __imp_wglMakeCurrent sin resolver al que se hace referencia en la función "void __cdecl CleanupDeviceWGL(struct HWND__ *,struct WGL_WindowData *)" (?CleanupDeviceWGL@@YAXPEAUHWND__@@PEAUWGL_WindowData@@@Z)
-main.obj : error LNK2019: símbolo externo __imp_glClear sin resolver al que se hace referencia en la función main
-main.obj : error LNK2019: símbolo externo __imp_glClearColor sin resolver al que se hace referencia en la función main
-main.obj : error LNK2019: símbolo externo __imp_glViewport sin resolver al que se hace referencia en la función main
-C:\Users\mllur\Documents\GitHub\Game-Engine\Test\x64\Debug\Test.exe : fatal error LNK1120: 6 externos sin resolver
