@@ -72,7 +72,7 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <IncludePath>$(ProjectDir)vendor\ImGui\;$(ProjectDir)vendor\ImGui\backends;$(IncludePath)</IncludePath>
+    <IncludePath>$(ProjectDir)vendor\ImGui\;$(ProjectDir)vendor\ImGui\backends;$(ProjectDir)vendor\MathGeoLib-master;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
